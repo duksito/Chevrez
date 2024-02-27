@@ -1,0 +1,98 @@
+* {
+  scrollbar-width: initial;
+}
+body {
+  font-family: monospace;
+  text-align: center;
+  /* background-color: #1A1B1A; */
+  background-color: black; 
+  /*background-color: #262626;*/
+  margin: 0;
+  color: white;
+}
+
+main {
+  /*background-color:  #121212;*/
+  background-color: #121212;
+  height: 100vh;
+  color: white;
+  padding: 5px;
+  box-shadow: 0px 0px 10px #ff6961;
+  border-bottom: 1px solid #ff6961;
+}
+
+a {
+  color: #ff6961;
+}
+
+a:hover {
+  color: rgb(247, 78, 78);
+}
+
+img {
+  filter: drop-shadow(
+    0 0 10px #333 
+  )
+}
+
+#img {
+  max-width: 100%;
+  width: 600px;
+}
+
+hr {
+  border-top: 2px solid brown;
+  width: 60%;
+}
+
+#h3 {
+  color: white;
+}
+
+#h4 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+}
+
+#copy {
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  hr {
+    width: 95%;
+  }
+
+}
+
+/*
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#barra {
+  background-color: brown;
+  width: 40px;
+  height: 100px;
+}
+
+#flechaAbajo {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px;
+  border-bottom-width:0px;
+  border-color: brown transparent transparent transparent;
+}
+*/

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  max-width: 100%;
+  width: 1050px;
+  margin: auto;
+  background: linear-gradient(315deg, rgb(105, 137, 150) 0%, rgb(72, 66, 62) 100%);
+}
+
+header img {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.box {
+  display: flex;
+  padding: 20px;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+
+.name {
+  display: flex;
+  font-size: 20px;
+  color: darkgrey; 
+  background-color: black;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.id {
+  background-color: black;
+  color: white; 
+  margin-left: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  max-width: 100%;
+  width: 1050px;
+  margin: auto;
+  margin-top: 10px;
+}
