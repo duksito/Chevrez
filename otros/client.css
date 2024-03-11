@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.755);
+  font-family: monospace;
+}
+
+.degra {
+  display: flex;
+  width: 100%;
+  height: 4%;
+  background: rgb(32,10,10);
+  background: linear-gradient(90deg, rgba(32,10,10,1) 0%, rgba(60,55,55,1) 34%, rgba(64,92,38,1) 54%, rgba(164,19,0,1) 100%);
+}
+
+.deco {
+  border: 1px solid black;
+  background: rgb(157,157,157);
+  background: linear-gradient(0deg, rgba(157,157,157,1) 4%, rgba(124,124,124,1) 32%, rgba(122,122,122,1) 55%, rgba(61,61,59,1) 70%, rgba(0,0,0,1) 100%);
+  width: 3%;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  max-height: 100%;
+  height: 900px;
+}
+
+.dat {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+  max-width: 100%;
+  width: 550px;
+  background-color: #dcdcdd;
+  border: 2px solid #010100;
+  border-left: 3px solid black;
+  border-top: none;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  background-color: #aaaaaa;
+  border-bottom: 3px solid #010100;
+  padding: 3px;
+  gap: 20px
+}
+
+.box span { 
+  display: flex;
+  width: 30%;
+  padding: 2px;
+  background-color: #dcdcdd;
+  border: 1px solid #747575;
+  box-shadow: 1px 1px 1px black;
+  font-size: 15px;
+  font-weight: 600;
+  color: blue;
+}
+
+.barra {
+  display: flex;
+  padding: 2px;
+  justify-content: center;
+  background-color: #aaaaaa;
+  border: 1px solid #979696;
+  padding: 10px;
+}
+
+.barra span {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 300px;
+  color: white;
+  font-weight: bold;
+  background: rgb(37,36,36);
+  background: linear-gradient(90deg, rgba(37,36,36,1) 0%, rgba(119,150,69,1) 13%, rgba(121,141,89,1) 26%, rgba(73,148,118,1) 45%, rgba(226,26,26,1) 100%);
+  box-shadow: 2px 2px 2px black;
+}
+
+.barra1 {
+  display: flex;
+  background-color: #aaaaaa;
+  border-bottom: 3px solid #010100;
+  border-top: 1px solid #979696;
+  color: #aaaaaa;
+}
+
+.barra2 {
+  display: flex;
+  padding: 2px;
+  height: 20px;
+  justify-content: center;
+  background-color: #aaaaaa;
+  border: 1px solid black;
+}
+
+.barra2 span {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background: rgb(37,36,36);
+  background: linear-gradient(90deg, rgba(37,36,36,1) 0%, rgba(119,150,69,1) 13%, rgba(121,141,89,1) 26%, rgba(73,148,118,1) 45%, rgba(226,26,26,1) 100%);
+  color: white;
+  box-shadow: 2px 2px 2px black;
+  border: 1px solid black;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 25%;
+}
+
+.contenido {
+  display: flex;
+  width: 98%;
+  height: 90%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.inputs input {
+  box-shadow: 2px 2px 4px black;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid #747575;
+  background-color: #dcdcdd;  
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+}
+
+.boton button {
+  width: 100px;
+}
+
+.login {
+  display: flex;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.login-input input {
+  box-shadow: 2px 2px 4px black;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #747575;
+  background-color: #dcdcdd;
+}
+
+
+.btn-entrar {
+  width: 100px;
+}
+
+.content-left {
+  display: flex;
+  padding: 10px;
+  background-color: #aaaaaa;
+  width: 55%;
+  border: 2px solid #010100;
+  border-top: none;
+}
+
+.user-frame {
+  display: flex;
+} 
+
+.bar {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.bar a {
+  font-size: 12pt;
+  color: black;
+}
